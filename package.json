@@ -1,0 +1,27 @@
+{
+  "name": "cs-546-lab-6",
+  "version": "1.0.0",
+  "description": "CS546: Lab 6 - Routes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpatel1291/Lab6-Routes.git"
+  },
+  "author": {
+    "name": "Ravi Patel",
+    "cwid": "10432313"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpatel1291/Lab6-Routes/issues"
+  },
+  "homepage": "https://github.com/rpatel1291/Lab6-Routes#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3"
+  }
+}
