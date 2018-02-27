@@ -12,7 +12,7 @@ const aboutMe = {
 router.get("/", (req, res) => {
 
     res.json(aboutMe), (error) => {
-        res.status(500).status();
+        res.status(500).send();
     };
 });
 
