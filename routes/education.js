@@ -23,12 +23,10 @@ const myEducation = [
 ];
 
 router.get("/", (req, res) => {
-
-    myEducation.forEach((education) => {
-        res.json(education), (error) => {
-            res.status(500).send();
-        };
-    });
+    
+    res.json(myEducation), (error) => {
+        res.status(500).send();
+    };
 
 });
 
